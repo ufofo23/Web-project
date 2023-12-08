@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>호기심상자-Web Programming</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="event.js"></script>
+</head>
+<body>
+    <div id="header" OnClick ="location.href='index.html'" style="cursor:pointer">
+        <div id="title">
+            <h1>호기심상자</h1>
+            <h3>2023.08.07. ~ </h3>
+        </div>
+    </div>
+    <div id="grid">
+        <div id="index">
+            <ol>
+                <li class="first" onmouseover="colorChange(this.className, 'blue');" onmouseout="colorChange(this.className, 'black');" style="cursor:pointer">
+                    <div class="first" id="index1" onclick="newLists(this.id, '- 개요','- ZombieGame(solo)', '- ZombieGame(multi)');">
+                        Python
+                        <div class="small_index" OnClick ="location.href='python.html'"></div>
+                        <div class="small_index" OnClick ="location.href='zombie_solo.html'"></div>
+                        <div class="small_index" OnClick ="location.href='zombie_multi.html'"></div>
+                    </div>
+                </li>
+
+                <li class="second" onmouseover="colorChange(this.className, 'blue');" onmouseout="colorChange(this.className, 'black');">
+                    <div class="second" id="index2" onclick="newLists(this.id, '- 개요','- 자료구조', '- 알고리즘');">
+                    자료구조 & 알고리즘
+                        <div class="small_index" OnClick ="location.href='algorithm.html'"></div>
+                        <div class="small_index" OnClick ="location.href='algorithm.html'"></div>
+                        <div class="small_index" OnClick ="location.href='algorithm.html'"></div>
+                    </div>
+                </li>
+
+                <li class="third" onmouseover="colorChange(this.className, 'blue');" onmouseout="colorChange(this.className, 'black');"><a href="codingtest.html" class="third">Coding Test</a></li>
+                
+                <li class="fourth" onmouseover="colorChange(this.className, 'blue');" onmouseout="colorChange(this.className, 'black');">
+                    <div class="fourth" id="index4" onclick="newLists(this.id, '- 개요','- HTML', '- CSS', '- JavaScript');">
+                    Web Programming
+                        <div class="small_index" OnClick ="location.href='webprogramming.html'"></div>
+                        <div class="small_index" OnClick ="location.href='webprogramming.html'"></div>
+                        <div class="small_index" OnClick ="location.href='webprogramming.html'"></div>
+                        <div class="small_index" OnClick ="location.href='webprogramming.html'"></div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        <div id="main">
+            <h2>
+                Updating Soon...
+            </h2>
+        </div>
+    </div>
+</body>
+</html>

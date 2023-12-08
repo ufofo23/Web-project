@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#header {
+    text-decoration : none;
+    border : 6px rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+#header #title {
+    text-align : center;
+    letter-spacing: 2px;
+    color : rgba(228, 188, 251)
+}
+
+#header #title h1 {
+    font-size: 40px;
+    letter-spacing: 19px;
+    margin-bottom : 0px;
+}
+
+#header #title h3 {
+    margin-top : 0px;
+}
+
+#grid {
+    display : grid;
+    grid-template-columns : 200px 1fr;
+    margin-top : 10px;
+}
+
+#index {
+    text-align: left;
+    line-height : 40px;
+    border : black dotted 2px;
+    background-color: rgb(246, 230, 255);
+}
+
+#index ol a {
+    text-decoration: none;
+}
+
+#index .small_index {
+    font-size : 13px;
+}
+
+#main h2 {
+    text-indent : 20px;
+}
+
+#main p {
+    margin-left : 15px;
+    text-indent : 10px;
+}
